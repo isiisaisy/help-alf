@@ -11,5 +11,5 @@ HelpAlf.prototype.FindSpaceship = function (map) {
       return [x, lines.length - y - 1];
     }
   }
-  return 0;
+  return "Spaceship lost forever";
 };
