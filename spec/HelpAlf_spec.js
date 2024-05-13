@@ -22,4 +22,10 @@ describe("Find Spaceship", function () {
       "..........\n..........\n..........\n..........\n..........\n..........";
     expect(helpalf.FindSpaceship(map)).toEqual("Spaceship lost forever");
   });
+
+  // Test case 4
+  it('TC4: should not find the spaceship and return "Spaceship lost forever"', () => {
+    const map = "X";
+    expect(helpalf.FindSpaceship(map)).toEqual("Spaceship lost forever");
+  });
 });
