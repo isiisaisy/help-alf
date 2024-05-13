@@ -7,6 +7,6 @@ describe("Find Spaceship", function () {
   it("should find the spaceship and return its coordinates [7, 2]", () => {
     const map =
       "..........\n..........\n..........\n.......X..\n..........\n..........";
-    expect(helpAlf.FindSpaceship(map)).toEqual("[7, 2]");
+    expect(helpalf.FindSpaceship(map)).toEqual([7, 2]);
   });
 });
