@@ -1,0 +1,15 @@
+ToDo List
+const Map = "..........\n..........\n..........\n.......X..\n..........\n..........";
+FindSpaceship(Map) => [7,2]
+
+const Map = "";
+FindSpaceship(Map)  => "Spaceship lost forever"
+
+const Map = "..........\n..........\n..........\n..........\n..........\n..........";
+FindSpaceship(Map)  => "Spaceship lost forever"
+
+const Map = "X";
+FindSpaceship(Map)  => "Spaceship lost forever"
+
+const Map = "X..........\n..........\n..........\n..........\n..........\n..........";
+FindSpaceship(Map)  => "Spaceship lost forever"
