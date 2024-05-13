@@ -1,7 +1,7 @@
 //HelpAlf.js
 function HelpAlf() {}
 HelpAlf.prototype.FindSpaceship = function (map) {
-  if (map == "") {
+  if (map == "" || map == "X") {
     return "Spaceship lost forever";
   }
   const lines = map.split("\n");
